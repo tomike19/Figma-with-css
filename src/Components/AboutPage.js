@@ -8,7 +8,7 @@ import "./AboutPage.scss"
 function aboutPage() {
   return (
     <div className="about-section">
-      <Link to ='./DetailPage'>
+      <Link to ='./DetailPage' style={{textDecoration: 'none'}}>
       <h3 className="about-header">About Me</h3>
       </Link>
         

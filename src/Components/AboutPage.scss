@@ -8,21 +8,23 @@
 
 .about-section{
   width: 80%;
-
+ text-decoration: none !important;
   margin:133px auto;
 
   .about-header{
+    text-decoration: none !important;
     text-align: center;
     font-size: 50px;
     font-weight:normal;
     font-family: Roboto;
+    color: black;
   }
   .about-paragraph{
     font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 25px;
-line-height: 34px;
+font-size: 20px;
+
 margin-top: 30px;
   }
 
@@ -39,14 +41,26 @@ margin-top: 30px;
 }
   @media screen and (min-width: 768px) {
      .about-header{
-       font-size: 40px;
+      text-decoration: none !important;
+      text-align: center;
+      font-size: 50px;
+      font-weight:normal;
+      font-family: Roboto;
+      color: black;
      }
    
-  .about-paragraph{
-    font-size: 30px;
+  
+    .about-paragraph{
+      font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 34px;
+  margin-top: 30px;
+    }
   }
   
-}
+
 
 
 
