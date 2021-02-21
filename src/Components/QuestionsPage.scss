@@ -1,0 +1,14 @@
+
+
+$breakpoint-tablet: 768px;
+@media (min-width: $breakpoint-tablet) {
+  .questions-section{
+    width: 40%;
+    margin: 44px 355px;
+   }
+   
+   img{
+     float: left;
+   }
+   
+}
